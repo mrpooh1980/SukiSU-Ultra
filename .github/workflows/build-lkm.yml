@@ -25,7 +25,7 @@ jobs:
         include:
           - version: "android12-5.10"
             sub_level: 198
-            os_patch_level: 2024-08
+            os_patch_level: 2024-05
           # uses: ./.github/workflows/gki-kernel-mock.yml when debugging
     uses: ./.github/workflows/gki-kernel.yml
     with:
